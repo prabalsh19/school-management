@@ -1,0 +1,43 @@
+.student {
+  h1 {
+    margin-left: 1.5rem;
+  }
+  .btn {
+    margin-left: 1.5rem;
+  }
+  &__list {
+    &__item {
+      margin-top: 1.5rem;
+      a {
+        color: white;
+      }
+    }
+  }
+}
+
+.addStudent {
+  h1 {
+    text-align: center;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 2rem;
+    input,
+    label,
+    select {
+      width: 20rem;
+      padding: 5px;
+      font-size: 16px;
+      outline: none;
+    }
+  }
+}
+.class,
+.school {
+  margin-left: 1.5rem;
+}

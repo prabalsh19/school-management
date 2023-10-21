@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.6;
+}
+body {
+  background-color: black;
+  color: #dcdedf;
+}
+.btn {
+  background-color: #1d9bf0;
+  color: white;
+  padding: 7px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
