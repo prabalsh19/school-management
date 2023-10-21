@@ -13,7 +13,7 @@ export const Class = () => {
   const students = useSelector((state: StoreType) => state.students.students);
   const status = useSelector((state: StoreType) => state.students.status);
   const [classNum, setClassNum] = useState<string | number>("");
-  const [gender, setGender] = useState<string | number>("");
+  const [gender, setGender] = useState<string>("");
   const [sortBy, setSortBy] = useState("");
   console.log(useSelector((state) => state));
   const dispatch = useDispatch();
